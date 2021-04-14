@@ -1,0 +1,163 @@
+body {
+     background-image:url(https://i2.wp.com/vidviday.ua/blog/wp-content/uploads/2015/05/Manyva-vodospad-04-Int.jpg?fit=1537%2C835&ssl=1);
+ }
+@font-face {
+    font-family: "Exo2-Medium";
+    src: url("../fonts/Exo2-Medium.ttf");
+}
+@font-face {
+    font-family: "Exo2-MediumItalic";
+    src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+    font-family: "Exo2-Bold";
+    src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+    font-family: "Exo2-BoldItalic";
+    src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#block-body {
+    width: 1035px;
+    margin: 5px auto;
+    height: auto;
+}
+header {
+   
+   width: 1035px; 
+   height: 80px;
+   background:rgba(0,0,0,.7);
+}
+#block-content {
+    width: 1035px;
+    height: auto;
+    min-height: 500px;
+
+}
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.use {
+    color: blue;
+    
+}
+.web {
+    color: yellow; 
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+
+}
+.top-menu {
+    width: 689px;
+    height: 80px;
+    float: left;
+
+
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    left: 100px;
+    position: relative;
+
+}
+.top-menu ul li a {
+    position: relative;
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: orange;
+
+}
+.block-top-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.block-top-auth a {
+    position: relative;
+    
+    text-decoration: none;
+    color: red;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+ .box{
+    color: white;
+    background-color: black;
+    position: relative;
+  border:1px solid black;
+    max-width:68%;
+    margin: 0px auto;
+   max-height: 100%;
+    bottom: 500px;
+    background: rgba(0,0,0,.7);   
+ }
+
+ .you{
+
+    bottom: 320px;
+    position: relative;
+    left:650px;
+ }
+ .qwe{
+    position: relative;
+    top:85px;
+ }
+ 
+ 
